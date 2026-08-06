@@ -9,28 +9,27 @@ export default function About() {
                 {/* LEFT — TEXT (unchanged content) */}
                 <div className="md:pr-0">
                     <h2 className="text-4xl font-semibold text-[#2e2620] mb-6">
-                        About Us
+                        Party Decoration Rentals & Event Planning on Long Island, NY
                     </h2>
 
                     <p className="text-lg leading-relaxed text-[#4a3f38]">
                         Norika Atelier Events began as a labor of love inspired by the arrival of my
                         daughter, Scarlett Luna. Planning her earliest celebrations opened my eyes to how
-                        deeply meaningful these moments can be. The kind of joy that stays with you long
-                        after the day ends. That spark grew into a passion for helping others experience
-                        that same magic.
+                        deeply meaningful these moments can be. That spark grew into a passion for helping
+                        others create unforgettable celebrations.
                     </p>
 
                     <p className="text-lg leading-relaxed text-[#4a3f38] mt-6">
-                        Today, we’re a small, family‑inspired studio serving Long Island, NY with event design
-                        and curated party rentals crafted with
-                        intention. Every detail is handled with care, creativity, and a commitment to
-                        making your celebration feel effortless and beautifully personal.
+                        Today, we’re a small, family‑inspired studio serving Long Island, New York with
+                        elegant party decoration rentals, event design, and full-service party planning.
+                        From birthday party décor to baby shower and bridal shower styling, every detail
+                        is handled with care, creativity, and intention.
                     </p>
 
                     <p className="text-lg leading-relaxed text-[#4a3f38] mt-6">
-                        Whether you’re planning a birthday, bridal shower, baby shower, or an intimate
-                        gathering, our goal is simple: to transform your vision into an unforgettable
-                        experience that feels uniquely yours.
+                        Whether you’re planning a celebration in Nassau County, Suffolk County, or anywhere
+                        across Long Island, our goal is simple: to transform your vision into a beautifully
+                        personal experience that feels effortless from start to finish.
                     </p>
                 </div>
 

@@ -43,6 +43,32 @@ export default function InquiryForm() {
                     I’m so excited to hear more about your event. Share a bit about your vision
                     below, and I’ll be in touch within 24–48 hours.
                 </p>
+
+                <div className="mt-6 flex items-center justify-center gap-3">
+                    <a
+                        href="https://www.instagram.com/norikaatelier/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Visit Norika Atelier on Instagram"
+                        className="flex h-11 w-11 items-center justify-center rounded-full border border-[#d8d3cc] bg-white text-[#2e2620] shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#f7f2eb]"
+                    >
+                        <svg viewBox="0 0 24 24" className="h-5 w-5 fill-current" aria-hidden="true">
+                            <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5Zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5Zm5.25-3.25a1.25 1.25 0 1 1-1.25 1.25 1.25 1.25 0 0 1 1.25-1.25Z" />
+                        </svg>
+                    </a>
+
+                    <a
+                        href="https://www.facebook.com/profile.php?id=61552160206536&ref=PRODASH_UPSELL_xav_ig_profile_page_web#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Visit Norika Atelier on Facebook"
+                        className="flex h-11 w-11 items-center justify-center rounded-full border border-[#d8d3cc] bg-white text-[#2e2620] shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#f7f2eb]"
+                    >
+                        <svg viewBox="0 0 24 24" className="h-5 w-5 fill-current" aria-hidden="true">
+                            <path d="M13.5 22v-8.5h2.8l.4-3.2h-3.2V4.8c0-.9.3-1.6 1.6-1.6h1.7V.2c-.3 0-1.3-.2-2.5-.2-2.4 0-4.1 1.5-4.1 4.3v2.4H7.5v3.2h2.8V22h3.2Z" />
+                        </svg>
+                    </a>
+                </div>
             </div>
 
             <div className="max-w-xl w-full">
