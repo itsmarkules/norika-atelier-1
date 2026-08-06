@@ -60,7 +60,7 @@ export default function Header() {
 
                 {/* Subheading */}
                 <p
-                    className="mt-2 text-sm sm:text-base md:text-lg font-medium uppercase tracking-[0.28em] text-white/90 drop-shadow-lg"
+                    className="mt-2 text-sm sm:text-base md:text-lg font-medium tracking-[0.28em] text-white/90 drop-shadow-lg"
                     style={{ fontFamily: '"Playfair Display", serif' }}
                 >
                     Bringing Your Celebration Vision to Life
