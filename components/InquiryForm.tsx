@@ -36,9 +36,9 @@ export default function InquiryForm() {
     };
 
     return (
-        <section id="inquire" className="min-h-screen w-full flex flex-col items-center px-6 py-24 bg-[#f0eae4] border-t border-[#d8d3cc]">
-            <div className="max-w-3xl text-center mb-10">
-                <h2 className="text-4xl font-serif mb-6 text-[#2e2620]">Inquire</h2>
+        <section id="inquire" className="w-full bg-[#f0eae4] px-6 py-16 sm:px-8 sm:py-20 lg:px-10 lg:py-24">
+            <div className="mx-auto mb-10 max-w-3xl text-center">
+                <h2 className="mb-6 text-4xl font-serif text-[#2e2620]">Inquire</h2>
                 <p className="text-lg leading-relaxed text-[#4a3f38]">
                     I’m so excited to hear more about your event. Share a bit about your vision
                     below, and I’ll be in touch within 24–48 hours.
@@ -71,7 +71,7 @@ export default function InquiryForm() {
                 </div>
             </div>
 
-            <div className="max-w-xl w-full">
+            <div className="mx-auto max-w-5xl w-full px-4 sm:px-0 flex flex-col items-center">
                 {/* Status Message */}
                 <div
                     aria-live="polite"
@@ -89,7 +89,7 @@ export default function InquiryForm() {
                 </div>
 
                 {/* FORM */}
-                <form onSubmit={handleSubmit} className="flex flex-col gap-8" noValidate>
+                <form onSubmit={handleSubmit} className="mx-auto w-full max-w-3xl flex flex-col gap-5 sm:gap-6" noValidate>
 
                     {/* Name */}
                     <div>

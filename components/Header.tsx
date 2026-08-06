@@ -2,12 +2,12 @@
 
 export default function Header() {
     return (
-        <section className="relative isolate min-h-[100svh] w-full overflow-hidden bg-black">
+        <section className="relative isolate h-screen w-full overflow-hidden bg-black">
 
             {/* Background Video */}
             <div className="absolute inset-0 overflow-hidden">
                 <video
-                    className="h-full w-full min-w-full min-h-full object-cover object-center scale-[1.01] will-change-transform"
+                    className="h-full w-full min-w-full min-h-full object-cover object-center"
                     src="/header3.mp4"
                     autoPlay
                     loop
@@ -24,10 +24,10 @@ export default function Header() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_40%,transparent_0%,rgba(0,0,0,0.22)_70%,rgba(0,0,0,0.45)_100%)]" />
 
             {/* Optional luxury noise texture */}
-            <div className="absolute inset-0 opacity-[0.05] mix-blend-overlay bg-[url('/noise.png')]" />
+            <div className="absolute inset-0 opacity-[0.04] mix-blend-overlay bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.05),transparent_55%)]" />
 
             {/* Header Content */}
-            <div className="relative z-10 flex min-h-[100svh] flex-col items-center justify-center text-center px-6 pt-10 sm:pt-14 md:pt-16 animate-[fadeUp_0.9s_ease-out]">
+            <div className="relative z-10 flex h-full flex-col items-center justify-center text-center px-4 py-6 sm:px-6 sm:py-8 md:py-8 animate-[fadeUp_0.9s_ease-out]">
 
                 {/* Social Links */}
                 <div className="absolute right-4 top-4 z-20 flex items-center gap-2 sm:right-6 sm:top-6">
@@ -62,14 +62,14 @@ export default function Header() {
                     <img
                         src="/logo2.PNG"
                         alt="Norika Atelier logo"
-                        className="relative w-full max-w-[24rem] sm:max-w-[28rem] md:max-w-[34rem] lg:max-w-[38rem] object-contain 
+                        className="relative w-full max-w-[16rem] sm:max-w-[20rem] md:max-w-[26rem] lg:max-w-[30rem] object-contain 
                         drop-shadow-[0_4px_12px_rgba(0,0,0,0.55)] saturate-150 contrast-125 brightness-110"
                     />
                 </div>
 
                 {/* Subheading */}
                 <p
-                    className="mt-4 text-base sm:text-lg md:text-xl font-normal tracking-[0.02em] leading-relaxed 
+                    className="mt-3 text-sm sm:text-base md:text-lg font-normal tracking-[0.02em] leading-relaxed 
                     bg-gradient-to-b from-[#D4AF37] via-[#f3e7c9] to-white/75 bg-clip-text text-transparent 
                     drop-shadow-[0_1px_1px_rgba(255,255,255,0.25)]"
                     style={{ fontFamily: '"Playfair Display", serif' }}
@@ -78,14 +78,14 @@ export default function Header() {
                 </p>
 
                 {/* Location Line */}
-                <p className="mt-5 flex items-center gap-3 text-sm sm:text-base md:text-lg text-white/85 font-medium drop-shadow-[0_1px_1px_rgba(0,0,0,0.45)]">
+                <p className="mt-4 flex items-center gap-3 text-sm sm:text-base md:text-base text-white/85 font-medium drop-shadow-[0_1px_1px_rgba(0,0,0,0.45)]">
                     <span className="h-px w-8 sm:w-10 bg-[#D4AF37]/35"></span>
                     Serving Long Island, New York
                     <span className="h-px w-8 sm:w-10 bg-[#D4AF37]/35"></span>
                 </p>
 
                 {/* CTA */}
-                <div className="mt-6 flex flex-col items-center gap-2">
+                <div className="mt-5 flex flex-col items-center gap-2">
                     <a
                         href="#inquire"
                         className="inline-flex items-center justify-center rounded-full bg-white px-7 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-black 

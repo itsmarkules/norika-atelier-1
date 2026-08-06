@@ -4,10 +4,10 @@ import InquiryForm from "@/components/InquiryForm";
 
 export default function HomePage() {
   return (
-    <div className="text-taupe">
+    <main className="overflow-x-hidden bg-white text-[#2e2620]">
       <Header />
       <About />
       <InquiryForm />
-    </div>
+    </main>
   );
 }

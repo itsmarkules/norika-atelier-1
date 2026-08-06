@@ -1,0 +1,240 @@
+﻿node.exe : Vercel CLI 58.7.1 (Node.js 24.18.0)
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Vercel CLI 58.7.1 (Node.js 24.18. 
+   0):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+> [debug] [2026-08-06T22:24:07.799Z] Agent/TTY/nonInteractive: isAgent=true 
+agentName=github_copilot_vscode_agent stdin.isTTY=true --non-interactive=false 
+explicitFalse=false => nonInteractive=false
+> [debug] [2026-08-06T22:24:07.802Z] user supplied a possible target for 
+deployment or an extension
+> [debug] [2026-08-06T22:24:07.889Z] failed to find extension command with 
+name "vercel---prod"
+> [debug] [2026-08-06T22:24:08.213Z] Setting target to production
+> [debug] [2026-08-06T22:24:08.267Z] Spinner invoked (Retrieving projectΓÇª) 
+with a 1000ms delay
+> [debug] [2026-08-06T22:24:08.269Z] Valid access token, skipping token 
+refresh.
+> [debug] [2026-08-06T22:24:08.297Z] #1 ΓåÆ GET https://api.vercel.com/teams/te
+am_gQGl0H1zmqzmr7RPOCechz19?teamId=team_gQGl0H1zmqzmr7RPOCechz19
+> [debug] [2026-08-06T22:24:08.299Z] #2 ΓåÆ GET https://api.vercel.com/v9/proje
+cts/prj_I0Gw0qt2fx4yfjFk87U9FSKgC325?teamId=team_gQGl0H1zmqzmr7RPOCechz19
+> [debug] [2026-08-06T22:24:08.608Z] #1 ΓåÉ 200 OK: 
+sfo1::srsnm-1786055046211-cb19c70cf737 [311ms]
+> [debug] [2026-08-06T22:24:08.615Z] #2 ΓåÉ 200 OK: 
+sfo1::gjssk-1786055046213-1b80b363008b [316ms]
+> [debug] [2026-08-06T22:24:09.094Z] Spinner invoked (Deploying 
+mark-dornagons-projects/norika-atelier) with a 0ms delay
+[client-debug] 2026-08-06T22:24:09.094Z Creating deployment...
+[client-debug] 2026-08-06T22:24:09.095Z Provided 'path' is a directory.
+[client-debug] 2026-08-06T22:24:09.098Z Found 26 rules in .vercelignore
+[client-debug] 2026-08-06T22:24:09.098Z Building file tree...
+[client-debug] 2026-08-06T22:24:09.105Z Found 73 files in the specified 
+directory
+[client-debug] 2026-08-06T22:24:09.253Z Yielding a 'hashes-calculated' event 
+with 55 hashes
+[client-debug] 2026-08-06T22:24:09.253Z Using provided API URL: 
+https://api.vercel.com
+[client-debug] 2026-08-06T22:24:09.253Z Using provided user agent: vercel 
+58.7.1 node-v24.18.0 win32 (x64)
+[client-debug] 2026-08-06T22:24:09.253Z Setting platform version to harcoded 
+value 2
+[client-debug] 2026-08-06T22:24:09.253Z Creating the deployment and starting 
+upload...
+[client-debug] 2026-08-06T22:24:09.254Z Determining necessary files for 
+upload...
+[client-debug] 2026-08-06T22:24:09.254Z Creating deployment
+[client-debug] 2026-08-06T22:24:09.256Z Sending deployment creation API request
+[client-debug] 2026-08-06T22:24:09.833Z Deployment response: 
+{"error":{"code":"missing_files","message":"Missing files","missing":["18dda60f
+407967bed6de24ddf3d7a12f524a91a7","aac573badf226a0f4d49b30902a272f18595b5c3"]}}
+[client-debug] 2026-08-06T22:24:09.833Z Error: Deployment request status is 400
+[client-debug] 2026-08-06T22:24:09.833Z 2 files are required to upload
+[client-debug] 2026-08-06T22:24:09.834Z Yielding a 'file-count' event
+> [debug] [2026-08-06T22:24:09.834Z] Total files 55, 2 changed
+> [debug] [2026-08-06T22:24:09.834Z] Spinner invoked (Uploading 
+[--------------------] (0.0B/29.6KB)) with a 0ms delay
+[client-debug] 2026-08-06T22:24:09.835Z Building an upload list...
+[client-debug] 2026-08-06T22:24:09.836Z Starting upload
+[client-debug] 2026-08-06T22:24:09.837Z POST 
+https://api.vercel.com/v2/files?teamId=team_gQGl0H1zmqzmr7RPOCechz19
+[client-debug] 2026-08-06T22:24:09.839Z POST 
+https://api.vercel.com/v2/files?teamId=team_gQGl0H1zmqzmr7RPOCechz19
+> [debug] [2026-08-06T22:24:09.841Z] Spinner invoked (Uploading 
+[==========----------] (16.0KB/29.6KB)) with a 0ms delay
+> [debug] [2026-08-06T22:24:09.841Z] Spinner invoked (Uploading 
+[============--------] (18.0KB/29.6KB)) with a 0ms delay
+> [debug] [2026-08-06T22:24:09.843Z] Spinner invoked (Uploading 
+[====================] (29.6KB/29.6KB)) with a 0ms delay
+[client-debug] 2026-08-06T22:24:10.416Z DONE in 577ms: POST 
+https://api.vercel.com/v2/files?teamId=team_gQGl0H1zmqzmr7RPOCechz19
+[client-debug] 2026-08-06T22:24:10.416Z File 
+aac573badf226a0f4d49b30902a272f18595b5c3 
+(C:\Users\markj\norika-atelier\vercel-debug.txt) uploaded
+[client-debug] 2026-08-06T22:24:10.416Z Yielding a 'file-uploaded' event
+> [debug] [2026-08-06T22:24:10.417Z] Uploaded: 
+C:\Users\markj\norika-atelier\vercel-debug.txt (2KB)
+[client-debug] 2026-08-06T22:24:10.435Z DONE in 598ms: POST 
+https://api.vercel.com/v2/files?teamId=team_gQGl0H1zmqzmr7RPOCechz19
+[client-debug] 2026-08-06T22:24:10.435Z File 
+18dda60f407967bed6de24ddf3d7a12f524a91a7 
+(C:\Users\markj\norika-atelier\vercel-debug.log) uploaded
+[client-debug] 2026-08-06T22:24:10.436Z Yielding a 'file-uploaded' event
+> [debug] [2026-08-06T22:24:10.436Z] Uploaded: 
+C:\Users\markj\norika-atelier\vercel-debug.log (27.58KB)
+[client-debug] 2026-08-06T22:24:10.436Z All files uploaded
+[client-debug] 2026-08-06T22:24:10.436Z Yielding a 'all-files-uploaded' event
+[client-debug] 2026-08-06T22:24:10.436Z Starting deployment creation
+[client-debug] 2026-08-06T22:24:10.436Z Creating deployment
+[client-debug] 2026-08-06T22:24:10.437Z Sending deployment creation API request
+[client-debug] 2026-08-06T22:24:11.227Z Deployment response: {"alias":["norika-
+atelier-mark-dornagons-projects.vercel.app","norika-atelier-markdornagon-4533-m
+ark-dornagons-projects.vercel.app"],"aliasAssigned":false,"automaticAliases":["
+norika-atelier-mark-dornagons-projects.vercel.app","norika-atelier-markdornagon
+-4533-mark-dornagons-projects.vercel.app"],"bootedAt":1786055048565,"buildingAt
+":1786055048565,"buildSkipped":false,"createdAt":1786055048565,"creator":{"uid"
+:"imJtcZihVGuAhd1uMrubolss","username":"markdornagon-4533"},"id":"dpl_GHV9ixBe6
+Gq63VDH53T8jHtH9XQ9","name":"norika-atelier","meta":{"githubCommitAuthorName":"
+MarkDor","githubCommitAuthorEmail":"markdornagon@gmail.com","githubCommitMessag
+e":"Updated header","githubCommitOrg":"itsmarkules","githubCommitRef":"main","g
+ithubCommitRepo":"norika-atelier-1","githubCommitSha":"cae2fd2a4d932bc2023d8244
+4ab51edb442e8bf2","githubDeployment":"1","githubOrg":"itsmarkules","githubRepo"
+:"norika-atelier-1","gitDirty":"1","gitRootDirectory":"","actor":"github_copilo
+t_vscode_agent"},"originCacheRegion":"iad1","project":{"id":"prj_I0Gw0qt2fx4yfj
+Fk87U9FSKgC325","name":"norika-atelier","framework":"nextjs"},"public":false,"r
+eadyState":"INITIALIZING","regions":["iad1"],"source":"cli","status":"INITIALIZ
+ING","target":"production","team":{"id":"team_gQGl0H1zmqzmr7RPOCechz19","name":
+"Mark Dornagon's projects","slug":"mark-dornagons-projects"},"type":"LAMBDAS","
+url":"norika-atelier-aagls1eac-mark-dornagons-projects.vercel.app","version":2,
+"previewCommentsEnabled":true,"oidcTokenClaims":{"sub":"owner:mark-dornagons-pr
+ojects:project:norika-atelier:environment:production","iss":"https://oidc.verce
+l.com/mark-dornagons-projects","scope":"owner:mark-dornagons-projects:project:n
+orika-atelier:environment:production","aud":"https://vercel.com/mark-dornagons-
+projects","owner":"mark-dornagons-projects","owner_id":"team_gQGl0H1zmqzmr7RPOC
+echz19","project":"norika-atelier","project_id":"prj_I0Gw0qt2fx4yfjFk87U9FSKgC3
+25","environment":"production","plan":"hobby"},"lambdas":[{"id":"bld_9czkd5v3w"
+,"createdAt":1786055048268,"entrypoint":".","readyState":"READY","readyStateAt"
+:1786055048268,"output":[]}],"aliasAssignedAt":null,"build":{"env":[]},"builds"
+:[],"createdIn":"sfo1","env":[],"functions":null,"inspectorUrl":"https://vercel
+.com/mark-dornagons-projects/norika-atelier/GHV9ixBe6Gq63VDH53T8jHtH9XQ9","isIn
+ConcurrentBuildsQueue":false,"isInSystemBuildsQueue":true,"ownerId":"team_gQGl0
+H1zmqzmr7RPOCechz19","plan":"hobby","projectId":"prj_I0Gw0qt2fx4yfjFk87U9FSKgC3
+25","resourceConfig":{"buildMachine":{"defaultPurchaseType":"standard","purchas
+eType":"standard","machineSelectionType":"fixed"}},"projectSettings":{"buildCom
+mand":null,"devCommand":null,"framework":"nextjs","commandForIgnoringBuildStep"
+:null,"installCommand":null,"outputDirectory":null,"speedInsights":{"id":"biLRx
+xJXQSeDVscSS4HBdO5ib2d","hasData":false},"webAnalytics":{"id":"Fxy98XgufgOlL7uC
+zJ0FjWCU9"},"nodeVersion":"24.x"},"routes":null,"config":{"version":1,"secureCo
+mputePrimaryRegion":null,"secureComputeFallbackRegion":null,"functionTimeout":3
+00,"functionType":"fluid","functionMemoryType":"standard","isUsingActiveCPU":tr
+ue,"resourceConfig":{"buildMachine":{"defaultPurchaseType":"standard","purchase
+Type":"standard","machineSelectionType":"fixed"},"buildQueue":{"configuration":
+"SKIP_NAMESPACE_QUEUE"}}},"attribution":{"commitMeta":{"name":"MarkDor","email"
+:"markdornagon@gmail.com","isVerified":false}}}
+[client-debug] 2026-08-06T22:24:11.227Z Deployment created
+[client-debug] 2026-08-06T22:24:11.227Z Yielding a 'created' event
+  Inspect         https://vercel.com/mark-dornagons-projects/norika-atelier/GHV
+9ixBe6Gq63VDH53T8jHtH9XQ9
+  Production      
+https://norika-atelier-aagls1eac-mark-dornagons-projects.vercel.app
+> [debug] [2026-08-06T22:24:11.229Z] Spinner invoked (BuildingΓÇª) with a 0ms 
+delay
+> [debug] [2026-08-06T22:24:11.229Z] #3 ΓåÆ GET https://api.vercel.com/v3/now/d
+eployments/dpl_GHV9ixBe6Gq63VDH53T8jHtH9XQ9/events?direction=forward&follow=1&f
+ormat=lines&teamId=team_gQGl0H1zmqzmr7RPOCechz19
+[client-debug] 2026-08-06T22:24:11.229Z Waiting for deployment to be ready...
+[client-debug] 2026-08-06T22:24:11.230Z Waiting for builds and the deployment 
+to complete...
+[client-debug] 2026-08-06T22:24:12.948Z Deployment state changed to BUILDING
+[client-debug] 2026-08-06T22:24:12.948Z Yielding a 'building' event
+> [debug] [2026-08-06T22:24:12.948Z] Spinner invoked (BuildingΓÇª) with a 0ms 
+delay
+> [debug] [2026-08-06T22:24:14.709Z] #3 ΓåÉ 200 OK: 
+sfo1::st94m-1786055048982-4405edccd3f4 [3.48s]
+> [debug] [2026-08-06T22:24:14.711Z] Spinner invoked (Running build in 
+Washington, D.C., USA (East) ΓÇô iad1) with a 0ms delay
+> [debug] [2026-08-06T22:24:14.711Z] Spinner invoked (Build machine 
+configuration: 2 cores, 8 GB) with a 0ms delay
+> [debug] [2026-08-06T22:24:14.711Z] Spinner invoked (Retrieving list of 
+deployment files...) with a 0ms delay
+> [debug] [2026-08-06T22:24:14.711Z] Spinner invoked (Downloading 73 
+deployment files...) with a 0ms delay
+> [debug] [2026-08-06T22:24:16.941Z] Spinner invoked (Restored build cache 
+from previous deployment (9Z241ieyVwGRUsMjKb87TGNqyhy6)) with a 0ms delay
+> [debug] [2026-08-06T22:24:16.941Z] Spinner invoked (Running "vercel build") 
+with a 0ms delay
+> [debug] [2026-08-06T22:24:16.941Z] Spinner invoked (Vercel CLI 58.1.0) with 
+a 0ms delay
+> [debug] [2026-08-06T22:24:17.964Z] Spinner invoked (Installing 
+dependencies...) with a 0ms delay
+> [debug] [2026-08-06T22:24:18.988Z] Spinner invoked (up to date in 814ms) 
+with a 0ms delay
+> [debug] [2026-08-06T22:24:18.988Z] Spinner invoked (146 packages are looking 
+for funding) with a 0ms delay
+> [debug] [2026-08-06T22:24:18.988Z] Spinner invoked (run `npm fund` for 
+details) with a 0ms delay
+> [debug] [2026-08-06T22:24:18.988Z] Spinner invoked (Detected Next.js 
+version: 16.2.10) with a 0ms delay
+> [debug] [2026-08-06T22:24:18.988Z] Spinner invoked (Running "npm run build") 
+with a 0ms delay
+> [debug] [2026-08-06T22:24:18.988Z] Spinner invoked (> norika-atelier@0.1.0 
+build) with a 0ms delay
+> [debug] [2026-08-06T22:24:18.988Z] Spinner invoked (> next build) with a 0ms 
+delay
+> [debug] [2026-08-06T22:24:20.115Z] Spinner invoked (Applying modifyConfig 
+from Vercel) with a 0ms delay
+> [debug] [2026-08-06T22:24:20.115Z] Spinner invoked (Γû▓ Next.js 16.2.10 
+(Turbopack)) with a 0ms delay
+> [debug] [2026-08-06T22:24:20.115Z] Spinner invoked (Creating an optimized 
+production build ...) with a 0ms delay
+[client-debug] 2026-08-06T22:24:24.826Z Yielding a 'error' event
+> [debug] [2026-08-06T22:24:24.831Z] Error: Error: Command "npm run build" 
+exited with 1
+Error: Command "npm run build" exited with 1
+    at Now.handleDeploymentError (file:///C:/Users/markj/AppData/Local/npm-cach
+e/_npx/69f9afb961c37556/node_modules/vercel/dist/chunks/chunk-UAVZOOOL.js:1632:
+12)
+    at processDeployment (file:///C:/Users/markj/AppData/Local/npm-cache/_npx/6
+9f9afb961c37556/node_modules/vercel/dist/chunks/chunk-UAVZOOOL.js:1401:33)
+    at process.processTicksAndRejections 
+(node:internal/process/task_queues:104:5)
+    at async Now.create (file:///C:/Users/markj/AppData/Local/npm-cache/_npx/69
+f9afb961c37556/node_modules/vercel/dist/chunks/chunk-UAVZOOOL.js:1525:24)
+    at async createDeploy (file:///C:/Users/markj/AppData/Local/npm-cache/_npx/
+69f9afb961c37556/node_modules/vercel/dist/commands/deploy/index.js:196:12)
+    at async handleDefaultDeploy (file:///C:/Users/markj/AppData/Local/npm-cach
+e/_npx/69f9afb961c37556/node_modules/vercel/dist/commands/deploy/index.js:1641:
+18)
+    at async _Span.trace (C:\Users\markj\AppData\Local\npm-cache\_npx\69f9afb96
+1c37556\node_modules\@vercel\build-utils\dist\index.js:36295:14)
+    at async main (file:///C:/Users/markj/AppData/Local/npm-cache/_npx/69f9afb9
+61c37556/node_modules/vercel/dist/index.js:2315:18)
+> [debug] [2026-08-06T22:24:24.831Z] handling error: Error: Command "npm run 
+build" exited with 1
+    at Now.handleDeploymentError (file:///C:/Users/markj/AppData/Local/npm-cach
+e/_npx/69f9afb961c37556/node_modules/vercel/dist/chunks/chunk-UAVZOOOL.js:1632:
+12)
+    at processDeployment (file:///C:/Users/markj/AppData/Local/npm-cache/_npx/6
+9f9afb961c37556/node_modules/vercel/dist/chunks/chunk-UAVZOOOL.js:1401:33)
+    at process.processTicksAndRejections 
+(node:internal/process/task_queues:104:5)
+    at async Now.create (file:///C:/Users/markj/AppData/Local/npm-cache/_npx/69
+f9afb961c37556/node_modules/vercel/dist/chunks/chunk-UAVZOOOL.js:1525:24)
+    at async createDeploy (file:///C:/Users/markj/AppData/Local/npm-cache/_npx/
+69f9afb961c37556/node_modules/vercel/dist/commands/deploy/index.js:196:12)
+    at async handleDefaultDeploy (file:///C:/Users/markj/AppData/Local/npm-cach
+e/_npx/69f9afb961c37556/node_modules/vercel/dist/commands/deploy/index.js:1641:
+18)
+    at async _Span.trace (C:\Users\markj\AppData\Local\npm-cache\_npx\69f9afb96
+1c37556\node_modules\@vercel\build-utils\dist\index.js:36295:14)
+    at async main (file:///C:/Users/markj/AppData/Local/npm-cache/_npx/69f9afb9
+61c37556/node_modules/vercel/dist/index.js:2315:18)
+Error: Command "npm run build" exited with 1
+> [debug] [2026-08-06T22:24:25.960Z] Vercel CLI 58.7.1 (Node.js 24.18.0)
+
+> [debug] [2026-08-06T22:24:26.880Z] Telemetry subprocess killed due to timeout
+> [debug] [2026-08-06T22:24:26.908Z] Telemetry subprocess exited with code null
+https://norika-atelier-aagls1eac-mark-dornagons-projects.vercel.app
