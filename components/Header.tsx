@@ -74,7 +74,7 @@ export default function Header() {
                     drop-shadow-[0_1px_1px_rgba(255,255,255,0.25)]"
                     style={{ fontFamily: '"Playfair Display", serif' }}
                 >
-                    Bringing Your Celebration Vision to Life
+                    Elevated Designs with Intention
                 </p>
 
                 {/* Location Line */}

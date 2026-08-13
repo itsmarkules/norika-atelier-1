@@ -34,3 +34,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ 
+Environment
+-----------
+To enable the Instagram feed, create a `.env.local` at the project root with the following key (see `.env.local.example`):
+
+```
+NEXT_PUBLIC_INSTAGRAM_TOKEN=YOUR_INSTAGRAM_BASIC_DISPLAY_ACCESS_TOKEN
+```
+
+You must provide a valid Instagram Basic Display access token. The `InstagramFeed` component runs client-side and will fetch the 4 most recent posts.
