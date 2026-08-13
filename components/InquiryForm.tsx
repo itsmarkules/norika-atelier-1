@@ -55,7 +55,7 @@ export default function InquiryForm() {
                         Inquire
                     </h2>
                     <p className="mt-4 text-base leading-relaxed text-[#4a3f38] sm:text-lg">
-                        I’m so excited to hear more about your event. Share a bit about your vision below, and I’ll be in touch within 24–48 hours.
+                        I’m so excited to hear more about your event. Share a bit about your vision below, and I’ll be in touch within 24–72 hours.
                     </p>
                     <p className="mt-4 text-sm font-medium uppercase tracking-[0.12em] text-[#7b675b] sm:text-base">
                         We require a minimum of $500 for all site event installations.
