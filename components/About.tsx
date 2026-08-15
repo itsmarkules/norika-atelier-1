@@ -87,18 +87,22 @@ export default function About() {
 
                     <div className="space-y-5 text-left text-[#4a3f38]">
                         <p className="text-base leading-7 lg:text-lg lg:leading-9">
-                            Norika Atelier was born from a passion for creating unforgettable moments with intention. More than a name, it represents growth, purpose, creativity, and the belief that every celebration deserves to be thoughtfully designed.
+                            At Norika Atelier, we believe every celebration should feel effortless, intentional, and unforgettable. We offer full-service event design and styling, combining timeless aesthetics with carefully curated details to transform your vision into a one-of-a-kind experience.
                         </p>
+
                         <p className="text-base leading-7 lg:text-lg lg:leading-9">
-                            Whether you’re planning an intimate gathering, a milestone celebration, or an elegant wedding, we thoughtfully design every element to create a space that feels both elevated and deeply personal.
+                            From statement backdrops, lush floral installations to soft candlelight, fabric draping, and custom balloon artistry, we create environments that feel inviting, elegant, and memorable. Our collection of premium rental pieces allows us to design celebrations that are refined, cohesive, and unlike anything else.
                         </p>
+
                         <p className="text-base leading-7 lg:text-lg lg:leading-9">
-                            Our services include event design and styling, luxury backdrop rentals, custom balloon installations, draping and fabric installations, floral design, candle styling, and curated décor rentals. Every piece is intentionally selected to complement your event, creating a seamless design from the moment your guests arrive.
+                            <span className="text-[#c7a27c]">Norika</span>—my middle name given to me by my mother, means <span className="italic">“beautiful sunshine”</span> and <span className="italic">“to be a blessing”</span>. Those meanings have become the heart of this business. My hope is that every event, gathering, and space we design brings beauty, joy, and inspiration to the people who experience it.
                         </p>
+
                         <p className="text-base leading-7 lg:text-lg lg:leading-9">
-                            Whether we’re styling an intimate gathering or transforming an entire venue, our goal is always the same: to create an experience that feels beautiful, meaningful, and unforgettable.
+                            Because life moves quickly, but the moments we gather with the people we love are the ones that become our most treasured memories.
                         </p>
                     </div>
+
                 </div>
 
                 <div className="w-full rounded-[1.75rem] bg-white/90 p-5 shadow-[0_18px_50px_rgba(46,38,32,0.1)] ring-1 ring-[#d8cbbf]/40 sm:p-8">
